@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+#bg{
+    /* The image used */
+    background-image: url("images/bg.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  #main-container{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+  }
+  p{
+    justify-content: center; 
+    padding-left: 3rem;
+    font-size: 2rem;
+  }
+  h2{
+    justify-content: center;
+    padding-top: 15%;
+    font-size: 4rem;
+  }
